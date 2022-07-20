@@ -21,7 +21,16 @@ button:focus {
 .dark-mode .email-link {
     background: #353535;
     color: white;
-    transition: 1.5 ease;
+    background: linear-gradient(to left, #353535 50%, #009dff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.dark-mode .email-link:hover {
+    text-decoration: none;
+    background-position: left bottom;
+    transition: all 1s ease;
+    color: white;
 }
 
 .dark-button {
@@ -62,6 +71,7 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    overflow: hidden;
 }
 
 .skills-list {
