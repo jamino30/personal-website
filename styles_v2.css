@@ -1,3 +1,68 @@
+body {
+    color: black;
+    background: linear-gradient(to left, white 50%, #353535 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease;
+  }
+
+button:focus {
+    outline: 0;
+}
+
+.dark-mode {
+    color: white;
+    background: linear-gradient(to right, #353535 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 1s ease;
+}
+
+.dark-mode .email-link {
+    background: #353535;
+    color: white;
+    transition: 1.5 ease;
+}
+
+.dark-button {
+    background: #353535;
+    border: 2px solid #353535;
+    position: sticky;
+    bottom: 20px;
+    left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 100px;
+    transition: 1s ease;
+
+}
+
+.dark-mode .dark-button {
+    background: white;
+    border: 2px solid white;
+    color: #353535;
+}
+
+body .dark-button:before {
+    content: "🌙";
+}
+
+.dark-mode .dark-button:before {
+    content: "☀️";
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -26,7 +91,7 @@
 
 .project-links {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
     margin-right: 20px;
     background:
         linear-gradient(to right, transparent, transparent),
@@ -64,10 +129,12 @@
     -webkit-transition: .4s ease;
     transition: .4s ease;
     background-color: #005183;
-    z-index: 100
+    z-index: 100;
+    border-radius: 20px;
 }
 
-.image-overlay:hover {
+.image-overlay:hover,
+.image-overlay:active {
     opacity: 0.95
 }
 
@@ -92,7 +159,7 @@
     width: 100%;
     height: 400px;
     background-color: #eee;
-    cursor: pointer
+    border-radius: 20px;
 }
 
 .project-title {
