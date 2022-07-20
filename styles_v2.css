@@ -1,6 +1,6 @@
 body {
     color: black;
-    background: linear-gradient(to left, white 50%, #353535 50%);
+    background: linear-gradient(to left, white 50%, black 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all 1s ease;
@@ -12,16 +12,16 @@ button:focus {
 
 .dark-mode {
     color: white;
-    background: linear-gradient(to right, #353535 50%, white 50%);
+    background: linear-gradient(to right, black 50%, white 50%);
     background-size: 200% 100%;
     background-position: left bottom;
     transition: all 1s ease;
 }
 
 .dark-mode .email-link {
-    background: #353535;
+    background: black;
     color: white;
-    background: linear-gradient(to left, #353535 50%, #009dff 50%);
+    background: linear-gradient(to left, black 50%, #009dff 50%);
     background-size: 200% 100%;
     background-position: right bottom;
 }
@@ -34,8 +34,8 @@ button:focus {
 }
 
 .dark-button {
-    background: #353535;
-    border: 2px solid #353535;
+    background: black;
+    border: 2px solid black;
     position: sticky;
     bottom: 20px;
     left: 20px;
@@ -53,7 +53,7 @@ button:focus {
 .dark-mode .dark-button {
     background: white;
     border: 2px solid white;
-    color: #353535;
+    color: black;
 }
 
 body .dark-button:before {
@@ -171,6 +171,10 @@ html {
     height: 400px;
     background-color: #eee;
     border-radius: 20px;
+}
+
+.dark-mode .project-card {
+    background-color: #353535;
 }
 
 .project-title {
