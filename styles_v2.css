@@ -21,10 +21,10 @@ button:focus {
     position: sticky;
     bottom: 20px;
     left: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     border-radius: 100px;
     transition: all 1s ease;
