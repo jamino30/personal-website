@@ -1,0 +1,34 @@
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 15px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.skills-list li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.skills-list li::before {
+    content: "▹ ";
+    color: black;
+    font-size: 19px;
+    line-height: 12px
+}
+
+@media (max-width: 576px) {
+
+    .phone,
+    .pl-0 {
+        position: relative;
+        left: 20px;
+    }
+}
