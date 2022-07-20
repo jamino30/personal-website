@@ -16,8 +16,8 @@ button:focus {
 }
 
 .dark-mode .email-link {
-    background-color: black;
     color: white;
+    background-color: transparent;
     background: linear-gradient(to left, black 50%, #009dff 50%);
     background-size: 200% 100%;
     background-position: right bottom;
@@ -27,7 +27,6 @@ button:focus {
     text-decoration: none;
     background-position: left bottom;
     transition: all 1s ease;
-    color: white;
 }
 
 .dark-button {
@@ -181,4 +180,29 @@ html {
     font-weight: 900;
     width: 150%;
     font-family: CircularStd, sans-serif
+}
+
+.email-link,
+.landing-block p {
+    font-weight: 300
+}
+
+.email-link {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #009dff;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+    background: linear-gradient(to left, white 50%, #009dff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.email-link:hover {
+    color: black;
+    text-decoration: none;
+    background-position: left bottom;
+    transition: all 1s ease;
 }
