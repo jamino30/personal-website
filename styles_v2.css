@@ -1,9 +1,3 @@
-@media (max-width: 570px) {
-    .image-overlay {
-        opacity: 1;
-    }
-}
-
 .skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
