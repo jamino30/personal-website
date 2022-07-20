@@ -8,7 +8,7 @@
   Previous iterations: TBA
 </p>
 
-## 🚨 Forking this repo (please read!)
+## Forking this repo
 
 > My personal website is open source, but please **do not plagiarize**. 
 
