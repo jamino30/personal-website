@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/logo.png" width="200" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/demo-logo.png" width="100" />
 </div>
 
 <h1 align="center">
