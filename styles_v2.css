@@ -37,6 +37,7 @@ button:focus {
     color: white;
     border-radius: 100px;
     transition: 1s ease;
+    z-index: 100;
 
 }
 
@@ -129,7 +130,7 @@ html {
     -webkit-transition: .4s ease;
     transition: .4s ease;
     background-color: #005183;
-    z-index: 100;
+    z-index: 50;
     border-radius: 20px;
 }
 
