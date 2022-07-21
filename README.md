@@ -12,10 +12,10 @@
 </p>
 
 ## ☀️  Light Mode:
-<img src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/light.png" alt="Light Mode" />
+<img src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/light-demo.png" alt="Light Mode" />
   
 ## 🌙  Dark Mode:
-<img src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/dark.png" alt="Dark Mode" />
+<img src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/dark-demo.png" alt="Dark Mode" />
 
 ## Forking this repo
 
