@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/logo.png" width="175" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   jaiamin.com - v1
@@ -11,10 +11,16 @@
   Previous iterations: TBA
 </p>
 
-## ☀️  Light Mode:
+<p align="center">
+  <a href="https://app.netlify.com/sites/jamino-v1/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/47bbab0b-8270-4333-b00a-b1f61570d8b9/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
+
+## Light Mode:
 <img src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/light-demo.png" alt="Light Mode" />
   
-## 🌙  Dark Mode:
+## Dark Mode:
 <img src="https://raw.githubusercontent.com/jamino30/jamino30.github.io/main/images/dark-demo.png" alt="Dark Mode" />
 
 ## Forking this repo
