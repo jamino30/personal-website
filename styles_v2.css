@@ -131,9 +131,8 @@ html {
     border-radius: 20px;
 }
 
-.image-overlay:hover,
-.image-overlay:active {
-    opacity: 0.95
+.image-overlay:hover {
+    opacity: 0.92
 }
 
 .project-tools {
