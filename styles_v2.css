@@ -239,6 +239,39 @@ html {
     transition: all 1s ease;
 }
 
+.dark-button-mobile {
+    visibility: visible;
+    background: #171c28;
+    border: 2px solid #171c28;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    color: white;
+    transition: all 1s ease;
+    box-shadow: 0 0 10px black;
+    border-radius: 100px;
+}
+
+.dark-mode .dark-button-mobile {
+    background: white;
+    border: 2px solid white;
+    color: #171c28;
+    transition: all 1s ease;
+    box-shadow: 0 0 10px white;
+}
+
+body .dark-button-mobile:before {
+    content: "🌙";
+    font-size: 15px;
+}
+
+.dark-mode .dark-button-mobile:before {
+    content: "☀️";
+    font-size: 15px;
+    text-shadow: 0 0 10px black;
+}
+
 @media (max-width: 992px) {
     .socials-mobile {
         visibility: visible;
@@ -285,11 +318,30 @@ html {
         text-align: center;
     }
 
+    .dark-button {
+        visibility: hidden;
+        transition: all 100ms ease;
+    }
+
+    .dark-button-mobile {
+        visibility: visible;
+    }
+
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
     .socials-mobile {
         visibility: hidden;
         margin-bottom: -100px;
+        transition: all 100ms ease;
+    }
+
+    .dark-button {
+        visibility: visible;
+    }
+
+    .dark-button-mobile {
+        visibility: hidden;
+        transition: all 100ms ease;
     }
 }
