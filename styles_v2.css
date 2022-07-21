@@ -150,6 +150,7 @@ html {
     padding: 0px;
     position: absolute;
     bottom: 0px;
+    width: 85%;
 }
 
 .project-tools li {
