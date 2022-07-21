@@ -7,7 +7,7 @@ body {
 
 .dark-mode {
     color: white;
-    background: black;
+    background: #171c28;
     transition: all 1s ease;
 }
 
@@ -16,8 +16,8 @@ button:focus {
 }
 
 .dark-button {
-    background: black;
-    border: 2px solid black;
+    background: #171c28;
+    border: 2px solid #171c28;
     position: sticky;
     bottom: 20px;
     left: 20px;
@@ -35,16 +35,19 @@ button:focus {
 .dark-mode .dark-button {
     background: white;
     border: 2px solid white;
-    color: black;
+    color: #171c28;
     transition: all 1s ease;
 }
 
 body .dark-button:before {
     content: "🌙";
+    font-size: 20px;
 }
 
 .dark-mode .dark-button:before {
     content: "☀️";
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
 }
 
 html {
@@ -157,7 +160,7 @@ html {
 }
 
 .dark-mode .project-card {
-    background-color: #353535;
+    background-color: #10141f;
     transition: all 1s ease;
 }
 
