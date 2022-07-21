@@ -193,3 +193,47 @@ html {
     text-decoration: none;
     background-size: 0 0.2em, 100% 0.2em;
 }
+
+#navigation {
+    border-bottom: 1px solid black;
+    background-color: #fff;
+    z-index: 700;
+    transition: all 1s ease;
+}
+
+.dark-mode #navigation {
+    background-color: #171c28;
+    border-bottom: 1px solid white;;
+    color: white;
+    transition: all 1s ease;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    transition: all 1s ease;
+}
+
+.dark-mode .nav-link {
+    color: white;
+    transition: all 1s ease;
+}
+
+.btn-layered {
+    background: none;
+    border: 2px solid black;
+    font-family: CircularStd, sans-serif !important;
+    font-size: 10pt;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 26px;
+    transition: all 1s ease;
+    -webkit-transition: .1s ease-out;
+    color: black;
+}
+
+.dark-mode .btn-layered {
+    color: white;
+    border: 2px solid white;
+    transition: all 1s ease;
+}
