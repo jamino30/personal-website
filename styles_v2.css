@@ -29,6 +29,7 @@ button:focus {
     border-radius: 100px;
     transition: all 1s ease;
     z-index: 100;
+    box-shadow: 0 0 15px black;
 
 }
 
@@ -37,6 +38,8 @@ button:focus {
     border: 2px solid white;
     color: #171c28;
     transition: all 1s ease;
+    box-shadow: 0 0 15px white;
+
 }
 
 body .dark-button:before {
@@ -57,7 +60,6 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    overflow: hidden;
 }
 
 .skills-list {
