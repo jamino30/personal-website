@@ -626,12 +626,6 @@ pre code {
     }
 }
 
-#navigation {
-    border-bottom: 1px solid #000;
-    background-color: #fff;
-    z-index: 700
-}
-
 .primary-nav {
     font-family: CircularStd, sans-serif;
     font-weight: 700
@@ -4491,14 +4485,9 @@ input[type=submit].btn-block {
     list-style: none
 }
 
-.nav-link {
-    display: block;
-    padding: .5rem 1rem;
-}
-
 .nav-link:hover {
     color: #009dff;
-    transition: 200ms ease-in;
+    transition: 100ms ease;
 }
 
 .nav-link:focus,
@@ -11010,19 +10999,6 @@ html {
 
 .hidden {
     visibility: hidden
-}
-
-.btn-layered {
-    background: none;
-    border: 2px solid black;
-    font-family: CircularStd, sans-serif !important;
-    font-size: 10pt;
-    font-weight: 500;
-    line-height: 1;
-    padding: 10px 26px;
-    transition: .1s ease-out;
-    -webkit-transition: .1s ease-out;
-    color: black;
 }
 
 .offset {
