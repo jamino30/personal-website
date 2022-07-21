@@ -5,7 +5,7 @@
   jaiamin.com - v1
 </h1>
 <p align="center">
-  The first iteration of <a href="https://jaiamin.com" target="_blank">jaiamin.com</a> built with <a href="https://github.com/jekyll/jekyll" target="_blank">Jekyll</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  The first iteration of <a href="https://jaiamin.com" target="_blank">jaiamin.com</a> built with <a href="https://github.com/jekyll/jekyll" target="_blank">Jekyll</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations: TBA
