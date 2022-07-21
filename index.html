@@ -21,6 +21,7 @@
   <link rel="apple-touch-icon" sizes="512x512" href="/images/logo.png">
   <title>Jai Amin</title>
   <meta name="description" content="The personal website of Jai Amin">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -43,7 +44,8 @@
       <div class="d-flex align-items-center" id="landing-top">
         <div class="container">
           <div class="landing-block">
-            <h1 class="landing-title">Hi, I&#39m Jai.<br>I build unique things.</h1>
+            <h1 class="landing-title">Hi, I&#39m Jai.&nbsp 👋<br>
+              I build exciting <span style="color: #009dff" id="words">things</span>. </h1>
             <p class="mt-4">I am a computer science student at Northeastern University specializing
               in building (and occassionally designing) software.</p>
             <p class="mt-4">Here are a few technologies I've been working with recently:</p>
@@ -55,7 +57,7 @@
               <li>Docker</li>
               <li>VS Code</li>
             </ul>
-            <p> Want to get in touch?
+            <p> Get in touch 👉
               <a class="email-link mt-4" href="mailto:mail@jaiamin.com" style="font-weight: 500">mail@jaiamin.com</a>
             </p>
           </div>
@@ -63,7 +65,7 @@
       </div>
       <div class="d-flex justify-content-start" id="featured-work">
         <div class="container">
-          <h2 class="section-title">Some Things I've Built.</h2>
+          <h2 class="section-title">Some Things I've Built. 👨🏽‍💻</h2>
           <div class="row">
             <div class="col-lg-6 col-sm-12 mt-3">
               <div class="project-card" id="project-0">
@@ -134,16 +136,15 @@
                     <a class="project-links" href="https://github.com/jamino30/jamino30.github.io"
                       target="__blank">github</a>
                     <a class="project-links" href="https://jaiamin.com" target="__blank">website</a>
-                    <p class="project-desc">The first iteration of my personal website built with HTML and CSS and
+                    <p class="project-desc">The first iteration of my personal website built with Jekyll and
                       hosted on Github Pages.
-                      Designed and developed with a conscious effort to avoid using any superfluous Python frameworks
-                      like Flask or Django.
+                      Designed and developed with a conscious effort to avoid using web frameworks.
                     </p>
                     <ul class="project-tools">
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>Javascript</li>
-                      <li>Bootstrap</li>
+                      <li>Jekyll</li>
                       <li>Github Pages</li>
                     </ul>
                   </div>
@@ -157,6 +158,17 @@
     </main>
     <button class="dark-button" onclick="myFunction()"></button>
   </div>
+  <script type="text/javascript">
+    (function () {
+      var words = ["things", "software", "interfaces", "AI detectors", "experiences", "automation"],
+        i = 0;
+      setInterval(function () {
+        $('#words').fadeOut(function () {
+          $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+        });
+      }, 2000)
+    })();
+  </script>
   <script>
     function myFunction() {
       var element = document.body;
