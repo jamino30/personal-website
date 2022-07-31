@@ -235,7 +235,6 @@ html {
 
 .dark-mode .nav-link {
     color: white;
-    transition: all 1s ease;
 }
 
 .btn-layered {
@@ -255,6 +254,7 @@ html {
     color: white;
     border: 2px solid white;
     transition: all 1s ease;
+    -webkit-transition: .1s ease-out;
 }
 
 .dark-button-mobile {
