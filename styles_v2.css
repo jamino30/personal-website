@@ -223,6 +223,16 @@ html {
     transition: all 1s ease;
 }
 
+.nav-link:hover {
+    color: #009dff;
+    transition: 100ms ease;
+}
+
+.dark-mode .nav-link:hover {
+    color: #009dff;
+    transition: 100ms ease;
+}
+
 .dark-mode .nav-link {
     color: white;
     transition: all 1s ease;
