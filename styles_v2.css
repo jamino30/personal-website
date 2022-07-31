@@ -205,12 +205,14 @@ html {
 
 #navigation {
     background-color: #fff;
+    border-bottom: 1px solid black;
     z-index: 700;
     transition: all 1s ease;
 }
 
 .dark-mode #navigation {
     background-color: #171c28;
+    border-bottom: 1px solid white;
     color: white;
     transition: all 1s ease;
 }
