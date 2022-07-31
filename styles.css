@@ -637,8 +637,6 @@ pre code {
 
 .nav-link:hover {
     text-decoration: none !important;
-    color: #009dff;
-    transition: all 1s ease;
 }
 
 .nav-overlay {
@@ -4484,11 +4482,6 @@ input[type=submit].btn-block {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
-}
-
-.nav-link:hover {
-    color: #009dff;
-    transition: 100ms ease;
 }
 
 .nav-link:focus,
