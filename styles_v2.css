@@ -217,11 +217,6 @@ html {
     transition: all 1s ease;
 }
 
-.dark-mode #navigation:hover {
-    color: #009dff;
-    transition: all 1s ease;
-}
-
 .nav-link {
     display: block;
     padding: .5rem 1rem;
