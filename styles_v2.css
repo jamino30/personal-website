@@ -204,7 +204,6 @@ html {
 }
 
 #navigation {
-    border-bottom: 1px solid black;
     background-color: #fff;
     z-index: 700;
     transition: all 1s ease;
@@ -212,9 +211,12 @@ html {
 
 .dark-mode #navigation {
     background-color: #171c28;
-    border-bottom: 1px solid white;
-    ;
     color: white;
+    transition: all 1s ease;
+}
+
+.dark-mode #navigation:hover {
+    color: #009dff;
     transition: all 1s ease;
 }
 
