@@ -59,7 +59,7 @@ const clip = createProject(
     'https://www.github.com/jamino30/CLIP',
     'A Composite Layering Image Processor (CLIP) that allows users to interactively load, process, alter, and save image data.',
     ['Java', 'Swing', 'JUnit'],
-    'https://github.com/jamino30/v1/blob/main/images/clip-demo.png'
+    '/images/clip-demo.png'
 );
 
 const keyboard_app_launcher = createProject(
@@ -67,7 +67,7 @@ const keyboard_app_launcher = createProject(
     'https://www.github.com/jamino30/Keyboard-App-Launcher',
     'A macOS software that serves as a keyboard application launcher and provides productivity workflow support for media players, dictionaries, file system navigation, etc.',
     ['Python', 'Web APIs', 'Tkinter'],
-    'https://github.com/jamino30/v1/blob/main/images/keyboard-app-launcher-demo.png'
+    '/images/keyboard-app-launcher-demo.png'
 );
 
 const bridges_game = createProject(
@@ -75,7 +75,7 @@ const bridges_game = createProject(
     'https://www.github.com/jamino30/Bridges-Game',
     'A Java Bridg-It game built with javalib library that utilizes Breadth-first search (BFS) to determine the game winner.',
     ['Java', 'javalib', 'Tester'],
-    'https://github.com/jamino30/v1/blob/main/images/bridges-game-demo.png'
+    '/images/bridges-game-demo.png'
 );
 
 const file_management_tool = createProject(
@@ -83,7 +83,7 @@ const file_management_tool = createProject(
     'https://www.github.com/jamino30/File-Management-Tool',
     'A file system management tool that organizes files/directories (and subdirectories) based on its hexadecimal signatures.',
     ['Python', 'Docker', 'os'],
-    'https://github.com/jamino30/v1/blob/main/images/file-management-tool-demo.png'
+    '/images/file-management-tool-demo.png'
 );
 
 const personal_website = createProject(
@@ -91,7 +91,7 @@ const personal_website = createProject(
     'https://www.github.com/jamino30/v1',
     'A personal websiste built using HTML, CSS, and Netfliy deployment that showcases personal projects and experiences.',
     ['JavaScript', 'HTML', 'CSS'],
-    'https://github.com/jamino30/v1/blob/main/images/light-demo.png'
+    '/images/light-demo.png'
 );
 
 createRow(clip, keyboard_app_launcher);
