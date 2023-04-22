@@ -54,6 +54,14 @@ Personal Projects can be appended/removed below.
 
 */
 
+const clip = createProject(
+    'CLIP',
+    'https://www.github.com/jamino30/CLIP',
+    'A Composite Layering Image Processor (CLIP) that allows users to interactively load, process, alter, and save image data.',
+    ['Java', 'Swing', 'JUnit'],
+    'images/clip-demo.png'
+);
+
 const keyboard_app_launcher = createProject(
     'Keyboard App Launcher',
     'https://www.github.com/jamino30/Keyboard-App-Launcher',
@@ -86,5 +94,6 @@ const personal_website = createProject(
     'images/light-demo.png'
 );
 
-createRow(keyboard_app_launcher, bridges_game);
-createRow(file_management_tool, personal_website);
+createRow(clip, keyboard_app_launcher);
+createRow(bridges_game, file_management_tool);
+createRow(personal_website, '');
