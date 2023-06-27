@@ -50,7 +50,7 @@ function createRow(project1, project2) {
 
 /*
 
-Personal Projects can be appended/removed below.
+Personal Projects can be added/removed below.
 
 */
 
@@ -86,14 +86,5 @@ const file_management_tool = createProject(
     '/images/file-management-tool-demo.png'
 );
 
-const personal_website = createProject(
-    'Personal Website',
-    'https://www.github.com/jamino30/v1',
-    'A personal websiste built using HTML, CSS, and Netfliy deployment that showcases personal projects and experiences.',
-    ['JavaScript', 'HTML', 'CSS'],
-    '/images/light-demo.png'
-);
-
 createRow(clip, keyboard_app_launcher);
 createRow(bridges_game, file_management_tool);
-createRow(personal_website, '');
