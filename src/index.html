@@ -30,29 +30,11 @@
         
         a {
             text-decoration: none;
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            animation: waveColorChange 5s infinite linear;
-        }
-        
-        .gradient1 {
-            animation: gradientChange 6s linear infinite;
-        }
-        .gradient2 {
-            animation: gradientChange 6s linear infinite 2s;
-        }
-        .gradient3 {
-            animation: gradientChange 6s linear infinite 4s;
-        }
-        
-        @keyframes gradientChange {
-            0%, 100% {
-                background-image: linear-gradient(to right, #3498db, #e74c3c);
-            }
-            20%, 80% {
-                background-image: linear-gradient(to right, #e74c3c, #3498db);
-            }
+              background: linear-gradient(to right, #ff4500, #ff6600, #ff8800, #ffaa00, #ffcc00, #ffee00, #ffcc00, #ffaa00, #ff8800, #ff6600, #ff4500);
+              -webkit-background-clip: text;
+              background-clip: text;
+              color: transparent;
+              display: inline;
         }
     </style>
 </head>
