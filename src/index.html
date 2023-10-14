@@ -35,6 +35,16 @@
               background-clip: text;
               color: transparent;
               display: inline;
+            animation: gradientFlow 4s linear infinite;
+        }
+
+        @keyframes gradientFlow {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 100% 50%;
+          }
         }
     </style>
 </head>
