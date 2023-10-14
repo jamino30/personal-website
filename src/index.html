@@ -27,23 +27,27 @@
         }
         a {
             text-decoration: none;
-            background-image: linear-gradient(to right, #3498db, #e74c3c);
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
-            animation: colorChange 5s linear infinite; /* Use the colorChange animation */
+            animation: waveColorChange 5s infinite linear;
         }
-
-        @keyframes colorChange {
+        
+        @keyframes waveColorChange {
             0% {
                 background-image: linear-gradient(to right, #3498db, #e74c3c);
+                background-size: 200% 100%;
+                background-position: 100% 0;
             }
             50% {
                 background-image: linear-gradient(to right, #e74c3c, #3498db);
+                background-size: 200% 100%;
+                background-position: 100% 0;
             }
             100% {
                 background-image: linear-gradient(to right, #3498db, #e74c3c);
-            }
+                background-size: 200% 100%;
+                background-position: 100% 0;
         }
     </style>
 </head>
