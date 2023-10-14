@@ -32,54 +32,6 @@
             color: transparent;
             animation: waveColorChange 5s infinite linear;
         }
-
-        .emoji {
-            position: absolute;
-            animation: jump 4s ease-in-out 1;
-        }
-        .emoji.bounce1 {
-            animation: jump 4s ease-in-out 1, bounce 0.5s ease-in-out 1;
-        }
-        .emoji.bounce2 {
-            animation: jump 4s ease-in-out 1, bounce 0.5s ease-in-out 2;
-        }
-        
-        @keyframes jump {
-            0% {
-                transform: translateY(0);
-            }
-            10% {
-                transform: translateY(-20px);
-            }
-            30% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-            60% {
-                transform: translateY(0);
-            }
-            80% {
-                transform: translateY(-20px);
-            }
-            100% {
-                transform: translateY(0);
-                right: 0;
-            }
-        }
-        
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0);
-            }
-            40% {
-                transform: translateY(-10px);
-            }
-            60% {
-                transform: translateY(-5px);
-            }
-        }
         
         @keyframes waveColorChange {
             0% {
@@ -101,8 +53,7 @@
 </head>
 <body>
     <div class="content">
-      <span class="emoji bounce1" style="right: 10px; top: -10px;">👋🏽</span>
-      Hi! I'm <span class="emoji bounce2" style="right: 60px; top: -10px;">👋🏽</span> Jai Amin. <br>      
+      Hi! I'm <span class="large-text">Jai Amin. 👋🏽</span>      
         <br><br><br><br>
       What I'm Doing: 👨🏽‍💻 <br><br>
       - Software Engineer @ MIT focused on bringing ML and LLM approaches to Dandi Search Engine <br><br>
