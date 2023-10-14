@@ -17,14 +17,17 @@
             height: 100vh;
             margin: 0;
         }
+        
         .content {
             text-align: left;
             max-width: 50%;
             padding: 20px;
         }
+        
         .large-text {
             font-size: 35px;
         }
+        
         a {
             text-decoration: none;
             background-clip: text;
@@ -33,21 +36,23 @@
             animation: waveColorChange 5s infinite linear;
         }
         
-        @keyframes waveColorChange {
-            0% {
+        .gradient1 {
+            animation: gradientChange 6s linear infinite;
+        }
+        .gradient2 {
+            animation: gradientChange 6s linear infinite 2s;
+        }
+        .gradient3 {
+            animation: gradientChange 6s linear infinite 4s;
+        }
+        
+        @keyframes gradientChange {
+            0%, 100% {
                 background-image: linear-gradient(to right, #3498db, #e74c3c);
-                background-size: 200% 100%;
-                background-position: 100% 0;
             }
-            50% {
+            20%, 80% {
                 background-image: linear-gradient(to right, #e74c3c, #3498db);
-                background-size: 200% 100%;
-                background-position: 100% 0;
             }
-            100% {
-                background-image: linear-gradient(to right, #3498db, #e74c3c);
-                background-size: 200% 100%;
-                background-position: 100% 0;
         }
     </style>
 </head>
@@ -61,11 +66,11 @@
       - Developing Verdant: A playground and library platform for evaluating and sharing LLMs <br><br>
       - Interests: LLMs, NLP, Software Development, Computer Vision, Autonomous Vehicles, Space & Defense
       <br><br><br><br>
-      Email Me: <a href="mailto:jai@jaiamin.com">jai@jaiamin.com</a>
+      <div class="gradient1">Email Me: <a href="mailto:jai@jaiamin.com">jai@jaiamin.com</a></div>
       <br><br>
-      Connect With Me: <a href="https://www.linkedin.com/in/jaiamin30">linkedin.com/in/jaiamin30</a>
+      <div class="gradient2">Connect With Me: <a href="https://www.linkedin.com/in/jaiamin30">linkedin.com/in/jaiamin30</a></div>
       <br><br>
-      View My Projects: <a href="https://www.github.com/jamino30">github.com/jamino30</a>
+      <div class="gradient3">View My Projects: <a href="https://www.github.com/jamino30">github.com/jamino30</a></div>
     </div>
 </body>
 </html>
