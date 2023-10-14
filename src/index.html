@@ -33,6 +33,18 @@
             color: transparent;
             animation: colorChange 5s linear infinite; /* Use the colorChange animation */
         }
+
+        @keyframes colorChange {
+            0% {
+                background-image: linear-gradient(to right, #3498db, #e74c3c);
+            }
+            50% {
+                background-image: linear-gradient(to right, #e74c3c, #3498db);
+            }
+            100% {
+                background-image: linear-gradient(to right, #3498db, #e74c3c);
+            }
+        }
     </style>
 </head>
 <body>
