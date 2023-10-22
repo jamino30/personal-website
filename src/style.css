@@ -83,6 +83,10 @@ span.ai:hover {
     background: #f0c095;
 }
 
+.elsewhere {
+    margin-bottom: 15px;
+}
+
 ::selection {
     color: white;
     background: black;
