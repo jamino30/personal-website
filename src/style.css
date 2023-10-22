@@ -104,6 +104,16 @@ h3 {
     background: #252519;
 }
 
+/* mobile view */
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
 @media (max-width: 750px) {
     body {
         margin: 50px;
