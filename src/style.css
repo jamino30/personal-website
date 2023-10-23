@@ -33,21 +33,35 @@ h3 {
     font-size: 18px;
 }
 
-.ai {
+.ai-tooltip {
+    position: relative;
     text-decoration: underline;
 }
 
-.ai:hover {
-    background-color: green;
+.ai-tooltip:hover {
+    background-color: #f0c095;
 }
 
-.popup {
-    display: none;
-    background: blue;
+.ai-tooltip:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 40px;
+    
+    width:200px;
+    padding:10px;
+    border-radius:10px;
+    background:#252519;
+    color: #efeee6;
+    font-size: 15px;
+    font-weight: normal;
+    opacity: 0.95;
+
+    display:none; /* hide by default */ 
+
 }
 
-.ai:hover .popup {
-    display: block;
+.ai-tooltip:hover:before {
+    display:block;
 }
 
 .name {
