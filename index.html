@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Jai Amin</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="icon.png">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>J<span class="ai-tooltip" data-text="ar·ti·fi·cial in·tel·li·gence&#10;Noun: A divine miracle for those who believe in science" style="white-space: pre-line;">ai</span> Amin</h1>
+        <div class="popup"></div>
+        
+        <div id="about-section"></div>
+        <div id="experiences-section"><h2 id="experiences">Experiences</h2></div>
+        <div id="projects-section"><h2 id="projects">Projects</h2></div>
+        <div id="interests-section"><h2 id="interests">Interests</h2></div>
+        <div id="elsewhere-section"><h2>Elsewhere</h2></div>
+
+        <div style="margin-top: 150px; font-size: 12px;"><p>Built with pure HTML/CSS/JS, deployed with Netlify.</p></div>
+
+        <script>
+            function toggle(id) { // toggle notable section
+                var text = document.getElementById(id);
+                if (text.style.display === "none" || text.style.display === "") { text.style.display = "block"; } 
+                else { text.style.display = "none"; }
+            }
+        </script>
+    </body>
+</html>
