@@ -1,5 +1,5 @@
 // Fetch and parse the readme content
-fetch("../README.md")
+fetch("README.md")
 .then(response => response.text())
 .then(data => {
     const sections = data.split("## ").splice(1);
@@ -107,5 +107,5 @@ fetch("../README.md")
     }
 })
 .catch(error => {
-    console.error(error);
+    console.error("WEBSITE ERROR: " + error);
 });
