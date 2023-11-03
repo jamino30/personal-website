@@ -21,7 +21,6 @@ fetch("README.md")
     var experience_section_contents = experience_section.split("\n\n").slice(1);
     for (var i = 0; i < experience_section_contents.length; i++) {
         var experience = experience_section_contents[i].split("\n");
-        console.log(experience)
         var experience_link = experience[0].split("\"")[1];
         var experience_name = experience[0].split(">")[1].split("<")[0];
         var experience_role = experience[2];
@@ -47,7 +46,7 @@ fetch("README.md")
     // projects section
     var project_section_contents = projects_section.split("\n\n").slice(1);
     for (var i = 0; i < project_section_contents.length; i++) {
-        var project = project_section_contents[i].split("\n");
+        var project = project_section_contents[i].split("<br>");
         var project_name = project[0];
         var project_desc = project[1];
         var project_links = "";

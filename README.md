@@ -62,18 +62,27 @@ Software Engineer
 ## Projects
 
 UnixGPT
+<br>
 A powerful bridge between natural language and UNIX commands
+<br>
 <a href="https://www.github.com/jamino30/UnixGPT" target="_blank">github</a>
+<br>
 <a href="https://pypi.org/project/unixgpt/" target="_blank">pypi</a>
 
 Dandi Search Response UI
+<br>
 A powerful Dandi Search benchmarking system; presented to thousands of members at SfN
+<br>
 <a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">github</a>
+<br>
 <a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">demo</a>
 
 CLIP App
+<br>
 A Composite Layering Image Processor interface
+<br>
 <a href="https://www.github.com/jamino30/CLIP" target="_blank">github</a>
+<br>
 <a href="https://www.github.com/jamino30/CLIP" target="_blank">demo</a>
 
 ## Interests
