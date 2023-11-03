@@ -27,6 +27,7 @@
             }
         </script>
         <script> // Fetch and parse the readme content
+            document.addEventListener("DOMContentLoaded", function() {
             fetch("../README.md")
                 .then(response => response.text())
                 .then(data => {
@@ -137,6 +138,7 @@
                 .catch(error => {
                     console.error(error);
                 });
+            });
         </script>
     </body>
 </html>
