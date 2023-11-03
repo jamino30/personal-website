@@ -2,4 +2,4 @@
 
 <img src="https://api.netlify.com/api/v1/badges/47bbab0b-8270-4333-b00a-b1f61570d8b9/deploy-status" alt="Netlify Status" />
 
-Personal website built directly from reading the following README.md below.
+Website generated from the README.md in ```src/```.
