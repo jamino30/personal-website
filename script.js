@@ -20,14 +20,15 @@ fetch("README.md")
     // experiences section
     var experience_section_contents = experience_section.split("\n\n").slice(1);
     for (var i = 0; i < experience_section_contents.length; i++) {
-        var experience = experience_section_contents[i].split("<br>");
+        var experience = experience_section_contents[i].split("\n");
+        console.log(experience)
         var experience_link = experience[0].split("\"")[1];
         var experience_name = experience[0].split(">")[1].split("<")[0];
-        var experience_role = experience[1];
-        var experience_objective = experience[2].split(">").pop();
-        var notable_title = experience[3].split(":")[0].split(">")[1].toLowerCase();
+        var experience_role = experience[2];
+        var experience_objective = experience[4].split(">").pop();
+        var notable_title = experience[6].split(":")[0].split(">")[1].toLowerCase();
         var notable_work_list = "";
-        for (var j = 4; j < experience.length; j++) {
+        for (var j = 8; j < experience.length; j++) {
             var bullet_point = experience[j].split("- ")[1];
             notable_work_list += `<li>${bullet_point}</li>\n`;
         }

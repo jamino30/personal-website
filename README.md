@@ -24,13 +24,9 @@ AI Software Engineer Intern
 <b>Notable Work:</b>
 <br>
 - Improved Dandi Search Engine's precision by ~50% through the integration of an algorithm that leveraged Large Language Models (LLMs), vector-based semantic search, and keyword-based search methods
-<br>
 - Developing a robust search engine benchmark testing framework, including the development of a RESTful API using FastAPI and an intuitive frontend interface
-<br>
 - Implementing new features to streamline Dandi Search such as automatically assigning ontological terms to dataset metadata and employing LLM/NLP approaches to identify datasets matching specific scientific inquiries
-<br>
 - Leveraging GPT-3 to integrate a Python script that allows for automatically "filling" in metadata for a given dataset given plain text or DOI
-<br>
 - Orchestrating experiments to evaluate an auto-generated code feature for advanced data processing and visualization
 
 <a href="https://www.khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a>
