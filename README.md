@@ -16,31 +16,51 @@ Read more about my <a href="#experiences">experiences</a>, <a href="#projects">p
 ## Experiences
 
 <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>
+<br>
 AI Software Engineer Intern
+<br>
 <b>Overview: </b>Bringing AI/LLM approaches to Dandi Search
+<br>
 <b>Notable Work:</b>
+<br>
 - Improved Dandi Search Engine's precision by ~50% through the integration of an algorithm that leveraged Large Language Models (LLMs), vector-based semantic search, and keyword-based search methods
+<br>
 - Developing a robust search engine benchmark testing framework, including the development of a RESTful API using FastAPI and an intuitive frontend interface
+<br>
 - Implementing new features to streamline Dandi Search such as automatically assigning ontological terms to dataset metadata and employing LLM/NLP approaches to identify datasets matching specific scientific inquiries
+<br>
 - Leveraging GPT-3 to integrate a Python script that allows for automatically "filling" in metadata for a given dataset given plain text or DOI
+<br>
 - Orchestrating experiments to evaluate an auto-generated code feature for advanced data processing and visualization
 
 <a href="https://www.khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a>
+<br>
 Undergraduate Teaching Assistant
+<br>
 <b>Overview: </b>TA for CS3500 - Object-Oriented Design
+<br>
 <b>Notable Work:</b>
+<br>
 - in progress
 
 <a href="https://www.rev.school/" target="_blank">Rev</a>
+<br>
 Software Engineer
+<br>
 <b>Overview: </b>Bringing AI-powered features to student-led startups
+<br>
 <b>Notable Work:</b>
+<br>
 - in progress
 
 <a href="https://www.aerospacenu.com/nuav" target="_blank">AerospaceNU</a>
+<br>
 Software Engineer
+<br>
 <b>Overview: </b>Developed obstacle avoidance algorithms for deployable UAV swarms
+<br>
 <b>Notable Work:</b>
+<br>
 - in progress
 
 ## Projects

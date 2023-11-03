@@ -20,7 +20,7 @@ fetch("README.md")
     // experiences section
     var experience_section_contents = experience_section.split("\n\n").slice(1);
     for (var i = 0; i < experience_section_contents.length; i++) {
-        var experience = experience_section_contents[i].split("\n");
+        var experience = experience_section_contents[i].split("<br>");
         var experience_link = experience[0].split("\"")[1];
         var experience_name = experience[0].split(">")[1].split("<")[0];
         var experience_role = experience[1];
