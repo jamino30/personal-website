@@ -14,7 +14,7 @@ I'm deeply engaged in research related to large language models and NLP. Additio
 
 Read more about my <a href="#experiences">experiences</a>, <a href="#projects">projects</a>, and <a href="#interests">interests</a>.
 
-## Experience
+## Experiences
 
 <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>
 AI Software Engineer Intern
