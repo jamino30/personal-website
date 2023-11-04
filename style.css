@@ -1,11 +1,20 @@
+:root {
+    --background-color: #efeee6;
+    --text-color: #252519;
+    --background-text-color: #dbdbd6;
+    --highlight-color: #d8d3ba;
+    --highlight-hover-color: #f0c095;
+    --secondary-color: #e5e3d7;
+}
+
 html {
-    background: #efeee6;
+    background: var(--background-color);
     user-select: none;
 }
 
 body {
     width: 550px;
-    color: #252519;
+    color: var(--text-color);
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
     font-size: 16px;
     line-height: 24px;
@@ -15,13 +24,13 @@ body {
 a {
     text-decoration: none;
     font-weight: bold; 
-    color: #252519;
-    background: #d8d3ba;
+    color: var(--text-color);
+    background: var(--highlight-color);
     font-weight: normal;
 }
 
 a:hover {
-    background: #f0c095;
+    background: var(--highlight-hover-color);
     color: black;
 }
 
@@ -40,7 +49,7 @@ h3 {
 }
 
 .ai-tooltip:hover {
-    background-color: #f0c095;
+    background-color: var(--highlight-hover-color);
 }
 
 .ai-tooltip:before {
@@ -51,14 +60,13 @@ h3 {
     width:200px;
     padding:10px;
     border-radius:10px;
-    background:#252519;
-    color: #efeee6;
+    background: var(--text-color);
+    color: var(--background-color);
     font-size: 15px;
     font-weight: normal;
     opacity: 0.95;
 
-    display:none; /* hide by default */ 
-
+    display: none; /* hide by default */ 
 }
 
 .ai-tooltip:hover:before {
@@ -82,14 +90,14 @@ h3 {
 
 .notable-work {
     display: none;
-    background: #e5e3d7;
+    background: var(--secondary-color);
     padding: 15px 15px 15px 30px;
     border-radius: 10px;
 }
 
 .notable-interests {
     display: none;
-    background: #e5e3d7;
+    background: var(--secondary-color);
     padding: 1px 15px;
     border-radius: 10px;
 }
@@ -101,13 +109,13 @@ h3 {
 .notable {
     font-size: 12px;
     color: #7f7959;
-    background: #e5e3d7;
+    background: var(--secondary-color);
     cursor: pointer;
     margin-right: 5px;
 }
 
 .notable:hover {
-    background: #f0c095;
+    background: var(--highlight-hover-color);
 }
 
 .elsewhere {
@@ -115,8 +123,16 @@ h3 {
 }
 
 ::selection {
-    color: #efeee6;
-    background: #252519;
+    color: var(--background-color);
+    background: var(--text-color);
+}
+
+.background-text-on-scroll {
+    position: fixed;
+    top: 50%;
+    font-size: 13vw;
+    z-index: -1;
+    color: var(--background-text-color);
 }
 
 /* mobile view */
