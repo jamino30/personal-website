@@ -7,13 +7,14 @@
     --highlight-hover-color: #f0c095;
     --secondary-color: #e5e3d7;
     --notable-color: #7f7959;
+    --website-icon: 
 }
 
 .dark-theme {
     /* dark theme */
-    --background-color: #232323;
+    --background-color: rgb(28, 28, 28);
     --text-color: white;
-    --background-text-color: #121212;
+    --background-text-color: rgb(8, 8, 8);
     --highlight-color: #10708b;
     --highlight-hover-color: rgb(14, 180, 226);
     --secondary-color: #267085;
