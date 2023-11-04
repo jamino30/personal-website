@@ -63,27 +63,31 @@ Software Engineer
 
 UnixGPT
 <br>
-A powerful bridge between natural language and UNIX commands
+A powerful bridge between natural language and UNIX commands. The CLI allows users to convert natural language tasks to corresponding UNIX commands. Additionally, users can utilize the UnixGPT library to store and retrieve custom UNIX commands with natural language.
 <br>
-<a href="https://www.github.com/jamino30/UnixGPT" target="_blank">github</a>
+<a href="https://www.github.com/jamino30/UnixGPT" target="_blank">github code</a>
 <br>
-<a href="https://pypi.org/project/unixgpt/" target="_blank">pypi</a>
+<a href="https://pypi.org/project/unixgpt/" target="_blank">pypi package</a>
+
+Verdant Playground
+<br>
+Developing a drag-and-drop playground and library for evaluating and sharing pre-trained and custom LLMs. Integrating Hugging Face, allowing for easy custom LLM uploads. Leveraging Langchain and Qdrant to allow for additional AI-powered integrations.
+<br>
+<a href="https://www.github.com/jamino30/verdant" target="_blank">github code</a>
 
 Dandi Search Response UI
 <br>
-A powerful Dandi Search benchmarking system; presented to thousands of members at SfN
+A powerful Dandi Search benchmarking response system built with FastAPI that allows for isolating LLM/prompt performance. This project was presented and using by thousands of members at the world's largest neuroscience conference, the Society for Neuroscience (SfN).
 <br>
-<a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">github</a>
+<a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">github code</a>
 <br>
-<a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">demo</a>
+<a href="http://www.llmsearch.dandiarchive.org/" target="_blank">demo</a>
 
 CLIP App
 <br>
-A Composite Layering Image Processor interface
+A Composite Layering Image Processor interface (available via GUI or CLI) that allows users to load, process, alter, and save image data efficiently. Built with Java, Java Swing and engineered with Model-View-Controller (MVC) architecture.
 <br>
-<a href="https://www.github.com/jamino30/CLIP" target="_blank">github</a>
-<br>
-<a href="https://www.github.com/jamino30/CLIP" target="_blank">demo</a>
+<a href="https://www.github.com/jamino30/CLIP" target="_blank">github code</a>
 
 ## Interests
 
