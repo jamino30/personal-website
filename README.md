@@ -81,7 +81,7 @@ A powerful Dandi Search benchmarking response system built with FastAPI that all
 <br>
 <a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">github code</a>
 <br>
-<a href="http://www.llmsearch.dandiarchive.org/" target="_blank">demo</a>
+<a href="http://www.llmsearch.dandiarchive.org/" target="_blank">website demo</a>
 
 CLIP App
 <br>
