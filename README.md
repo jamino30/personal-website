@@ -23,11 +23,10 @@ AI Software Engineer Intern
 <br>
 <b>Notable Work:</b>
 <br>
-- Improved Dandi Search Engine's precision by ~50% through the integration of an algorithm that leveraged Large Language Models (LLMs), vector-based semantic search, and keyword-based search methods
-- Developing a robust search engine benchmark testing framework, including the development of a RESTful API using FastAPI and an intuitive frontend interface
-- Implementing new features to streamline Dandi Search such as automatically assigning ontological terms to dataset metadata and employing LLM/NLP approaches to identify datasets matching specific scientific inquiries
-- Leveraging GPT-3 to integrate a Python script that allows for automatically "filling" in metadata for a given dataset given plain text or DOI
-- Orchestrating experiments to evaluate an auto-generated code feature for advanced data processing and visualization
+- Created a robust search engine benchmarking system, complete with a RESTful API and intuitive interface. Presented and used by approximately 5,000 users at the world's largest neuroscience conference, the Society for Neuroscience
+- Improved Dandi Search Engine accuracy by approximately 50% by incorporating an algorithm leveraging Large Language Models (LLMs), vector-based semantic search, and keyword search techniques
+- Introducing LLM-powered features to enhance Dandi Search, including auto-assigning ontological terms to metadata, identification of datasets for scientific inquiries, and data enhancement for datasets with incomplete metadata
+- Leading experiments to evaluate an auto-generated code feature for advanced data processing and visualization
 
 <a href="https://www.khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a>
 <br>
@@ -37,7 +36,9 @@ Undergraduate Teaching Assistant
 <br>
 <b>Notable Work:</b>
 <br>
-- in progress
+- Providing in-depth guidance on Java-based and Object-oriented programming, algorithms, CI/CD tools, and build automation systems to undergraduate students enrolled in CS3500 - Object-Oriented Design
+- Evaluating programming assignments and exams, utilizing technical expertise to provide actionable feedback
+- Conducting regular office hours and instructing weekly labs sessions to offer support and enhance student learning
 
 <a href="https://www.rev.school/" target="_blank">Rev</a>
 <br>
@@ -47,17 +48,19 @@ Software Engineer
 <br>
 <b>Notable Work:</b>
 <br>
-- in progress
+- TBD
 
 <a href="https://www.aerospacenu.com/nuav" target="_blank">AerospaceNU</a>
 <br>
-Software Engineer
+ML Software Engineer
 <br>
 <b>Overview: </b>Developed obstacle avoidance algorithms for deployable UAV swarms
 <br>
 <b>Notable Work:</b>
 <br>
-- in progress
+- Architectured and developed autonomous aerial features in Python that allowed deployable UAV swarms to detect and avoid obstacles using RealSense Depth Camera through PX4 Autopilot and ROS Noetic communications
+- Deployed software to Gazebo Simulation in Linux environment for testing and modifying autonomous flight patterns of UAV while considering external factors including aerodynamics, flight stability and control
+- Oversaw a team of three engineers and coordinated tasks to meet project deadlines and efficiently resolve tasks
 
 ## Projects
 
