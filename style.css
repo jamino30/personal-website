@@ -1,10 +1,28 @@
-:root {
+.main-theme {
+    /* main theme */
     --background-color: #efeee6;
     --text-color: #252519;
     --background-text-color: #dbdbd6;
     --highlight-color: #d8d3ba;
     --highlight-hover-color: #f0c095;
     --secondary-color: #e5e3d7;
+    --notable-color: #7f7959;
+}
+
+.dark-theme {
+    /* dark theme */
+    --background-color: #232323;
+    --text-color: white;
+    --background-text-color: #121212;
+    --highlight-color: #10708b;
+    --highlight-hover-color: rgb(14, 180, 226);
+    --secondary-color: #267085;
+    --notable-color: rgb(185, 212, 217);
+}
+
+.main-theme, 
+.dark-theme {
+    transition: 0.3s ease;
 }
 
 html {
@@ -31,7 +49,7 @@ a {
 
 a:hover {
     background: var(--highlight-hover-color);
-    color: black;
+    color: var(--text-color);
 }
 
 h2 {
@@ -41,6 +59,18 @@ h2 {
 
 h3 {
     font-size: 18px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme-selector {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .ai-tooltip {
@@ -108,7 +138,7 @@ h3 {
 
 .notable {
     font-size: 12px;
-    color: #7f7959;
+    color: var(--notable-color);
     background: var(--secondary-color);
     cursor: pointer;
     margin-right: 5px;
