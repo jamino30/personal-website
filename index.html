@@ -12,7 +12,7 @@
         <h1>J<span class="ai-tooltip" data-text="ar·ti·fi·cial in·tel·li·gence&#10;Noun: A divine miracle for those who believe in science" style="white-space: pre-line;">ai</span> Amin</h1>
         <div class="popup"></div>
 
-        <div id="background-text" class="background-text-on-scroll"></div>
+        <div id="background-text" class="background-text-on-scroll">Experiences</div>
         
         <div id="about-section"></div>
         <div class="scroll-element" id="experiences-section"><h2 id="experiences">Experiences</h2></div>
@@ -40,7 +40,9 @@
                     const elementPosn = element.getBoundingClientRect().top;
 
                     if (elementPosn <= halfPageHeight) {
-                        backgroundText.innerHTML = element.id.split("-")[0];
+                        var elementText = element.id.split("-")[0];
+                        var titleCaseText = elementText.charAt(0).toUpperCase() + elementText.substring(1).toLowerCase();
+                        backgroundText.innerHTML = titleCaseText;
                     }
                 });
             });
