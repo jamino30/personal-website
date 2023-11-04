@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="fonts.css">
     <title>NU Links</title>
     <style>
+        :root {
+            --background-color: #efeee6;
+            --text-color: #252519;
+            --background-text-color: #dbdbd6;
+            --highlight-color: #d8d3ba;
+            --highlight-hover-color: #f0c095;
+            --secondary-color: #e5e3d7;
+        }
         html {
             overflow: hidden;
         }
@@ -16,6 +24,7 @@
         a {
             display: block;
             text-decoration: none;
+            border: 0.5px black solid;
         }
         .row {
             width: 100%;
@@ -29,12 +38,12 @@
             vertical-align: middle;
         }
         p {
-            color: white;
-            font-family: CircularStd, sans-serif !important;
-            font-size: 30px;
-            font-weight: 900;
+            color: black;
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+            font-size: 35px;
+            font-weight: bold;
         }
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 1000px) {
             html {
                 overflow-x: scroll;
             }
@@ -46,16 +55,16 @@
 </head>
 <body>
     <div class="row">
-        <a href="https://neu.uachieve.com/selfservice" class="column" style="background-color: #1E3F66">
+        <a href="https://neu.uachieve.com/selfservice" class="column" style="background-color: var(--secondary-color)">
             <p>Degree<br>Audit</p>
         </a>
-        <a href="https://nubanner.neu.edu/StudentRegistrationSsb" class="column" style="background-color: #2E5984">
+        <a href="https://nubanner.neu.edu/StudentRegistrationSsb" class="column" style="background-color: var(--secondary-color)">
             <p>Course<br>Registration</p>
         </a>
-        <a href="https://nu.outsystemsenterprise.com/StudentFinance/ViewBill" class="column" style="background-color: #528AAE">
+        <a href="https://nu.outsystemsenterprise.com/StudentFinance/ViewBill" class="column" style="background-color: var(--secondary-color)">
             <p>Student<br>Billing</p>
         </a>
-        <a href="https://neuidmsso.neu.edu/rmsmercury" class="column" style="background-color: #73A5C6">
+        <a href="https://neuidmsso.neu.edu/rmsmercury" class="column" style="background-color: var(--secondary-color)">
             <p>Student<br>Housing</p>
         </a>
     </div>
