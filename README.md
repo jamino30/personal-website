@@ -83,8 +83,6 @@ Dandi Search Response UI
 A powerful Dandi Search benchmarking response system built with FastAPI that allows for isolating LLM/prompt performance. This project was presented and using by thousands of members at the world's largest neuroscience conference, the Society for Neuroscience (SfN).
 <br>
 <a href="https://www.github.com/jamino30/dandi-search-response-ui" target="_blank">github code</a>
-<br>
-<a href="http://llmsearch.dandiarchive.org/" target="_blank">website demo</a>
 
 CLIP App
 <br>
