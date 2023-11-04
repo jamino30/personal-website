@@ -91,7 +91,7 @@ A Composite Layering Image Processor interface (available via GUI or CLI) that a
 
 ## Interests
 
-Natural Language Processing
+Large Language Models
 - NLP is a fascinating field where machines are trained to understand and generate human language. What makes it truly exciting is the advent of Large Language Models (LLMs). Popular models like <a href="https://openai.com/research/gpt-4" target="_blank">GPT-4</a> and <a href="https://ai.meta.com/llama/" target="_blank">LLaMa</a> have brought unprecedented capabilities to NLP. They can perform tasks like text generation, translation, and even answer questions with remarkable fluency.
 - As a software engineer at MIT, I am working on improving Dandi search engine, utilizing LLMs for a transformative impact.LLMs enable not only better search results but also the potential to extract valuable insights from a vast repository of data.
 - LLMs have the potential to revolutionize how we access and understand this complex data, making work at the intersection of NLP and LLMs incredibly exciting and influential. The synergy between these technologies opens up new frontiers for knowledge discovery and problem-solving.
