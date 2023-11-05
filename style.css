@@ -21,6 +21,17 @@
     --notable-color: rgb(185, 212, 217);
 }
 
+.color-theme {
+    /* dark theme */
+    --background-color: rgb(28, 28, 28);
+    --text-color: white;
+    --background-text-color: rgb(8, 8, 8);
+    --highlight-color: #10708b;
+    --highlight-hover-color: rgb(14, 180, 226);
+    --secondary-color: #267085;
+    --notable-color: rgb(185, 212, 217);
+}
+
 .main-theme, 
 .dark-theme {
     transition: 0.3s ease;
@@ -72,6 +83,7 @@ h3 {
     display: flex;
     align-items: center;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .ai-tooltip {
