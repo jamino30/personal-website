@@ -5,11 +5,11 @@ All contents of this website are fetched directly from the text below.
 
 ## About
 
-I'm Jai, currently in my third year as a Computer Science and AI student at Northeastern University in Boston, MA. I am a software engineer at the Massachusetts Institute of Technology (MIT), where my focus is bringing ML approaches to its Dandi Search Engine.
+I'm Jai, currently in my third year as a Computer Science and AI student at Northeastern University in Boston, MA. I am a software engineer intern at the Massachusetts Institute of Technology (MIT), where my focus is incorporating AI/LLM approaches into Dandi Search.
 
-One of my current projects is the development of Verdant, a project that serves as a versatile playground and library for evaluating and sharing Large Language Models (LLMs).
+One of my current projects is the development of unixgpt, a project that serves as powerful bridge between natural language and UNIX commands.
 
-I'm deeply engaged in research related to large language models and NLP. Additionally, I find the applications of computer vision and the world of autonomous vehicles quite fascinating.
+I'm deeply engaged in research related to LLMs and NLP. Additionally, I find the applications of computer vision and the world of autonomous vehicles quite fascinating.
 
 Read more about my <a href="#experiences">experiences</a>, <a href="#projects">projects</a>, and <a href="#interests">interests</a>.
 
