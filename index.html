@@ -19,14 +19,12 @@
         </div>
         <div class="popup"></div>
         <div></div>
-
-        <div id="background-text" class="background-text-on-scroll"></div>
         
-        <div class="scroll-element" id="about-section"></div>
-        <div class="scroll-element" id="experiences-section"><h2 id="experiences">Experiences</h2></div>
-        <div class="scroll-element" id="projects-section"><h2 id="projects">Projects</h2></div>
-        <div class="scroll-element" id="interests-section"><h2 id="interests">Interests</h2></div>
-        <div class="scroll-element" id="elsewhere-section"><h2>Elsewhere</h2></div>
+        <div id="about-section"></div>
+        <div id="experiences-section"><h2 id="experiences">Experiences</h2></div>
+        <div id="projects-section"><h2 id="projects">Projects</h2></div>
+        <div id="interests-section"><h2 id="interests">Interests</h2></div>
+        <div id="elsewhere-section"><h2>Elsewhere</h2></div>
 
         <div style="margin-top: 150px; font-size: 12px;"><p>Built with pure HTML/CSS/JS, deployed with Netlify.</p></div>
 
@@ -36,24 +34,6 @@
                 if (text.style.display === "none" || text.style.display === "") { text.style.display = "block"; } 
                 else { text.style.display = "none"; }
             }
-        </script>
-        <script> // toggle background text on scroll
-            var backgroundText = document.getElementById("background-text");
-            var sections = document.querySelectorAll(".scroll-element");
-
-            window.addEventListener("scroll", () => {
-                const halfPageHeight = window.innerHeight / 2;
-
-                sections.forEach((element) => {
-                    const elementPosn = element.getBoundingClientRect().top;
-
-                    if (elementPosn <= halfPageHeight) {
-                        var elementText = element.id.split("-")[0];
-                        var titleCaseText = elementText.charAt(0).toUpperCase() + elementText.substring(1).toLowerCase();
-                        backgroundText.innerHTML = titleCaseText;
-                    }
-                });
-            });
         </script>
         <script> // change website theme
             const themes = ["main-theme", "dark-theme"]
