@@ -17,15 +17,15 @@ Read more about my <a href="#experiences">experiences</a>, <a href="#projects">p
 
 <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>
 <br>
-AI Software Engineer Intern
+Software Engineer Intern
 <br>
 <b>Overview: </b>Bringing AI/LLM approaches to Dandi Search
 <br>
 <b>Notable Work:</b>
 <br>
-- Created a robust search engine benchmarking system, complete with a RESTful API and intuitive interface. Presented and used by approximately 5,000 users at the world's largest neuroscience conference, the Society for Neuroscience
-- Improved Dandi Search Engine accuracy by approximately 50% by incorporating an algorithm leveraging Large Language Models (LLMs), vector-based semantic search, and keyword search techniques
-- Introducing LLM-powered features to enhance Dandi Search, including auto-assigning ontological terms to metadata, identification of datasets for scientific inquiries, and data enhancement for datasets with incomplete metadata
+- Developed a Dandi Search benchmarking system showcased for ~5,000 members at the Society for Neuroscience, incorporating a user review pipeline to generate testing datasets for model evaluation
+- Improved Dandi Search precision by ~90% with a NLP-driven algorithm, pinpointing datasets for scientific and quantitative queries and outperforming traditional semantic search engines
+- Automated the completion of missing dataset metadata, leveraging associated DOIs and papers for enhanced efficiency
 - Leading experiments to evaluate an auto-generated code feature for advanced data processing and visualization
 
 <a href="https://www.khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a>
