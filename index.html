@@ -1,50 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" id="theme-container" class="main-theme">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Jai Amin</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="image/png" href="icon.png" id="website-icon">
-        <script src="script.js"></script>
     </head>
-    <body>
-        <div class="header">
-            <span><h1>J<span class="ai-tooltip" data-text="ar·ti·fi·cial in·tel·li·gence&#10;Noun: A divine miracle for those who believe in science" style="white-space: pre-line;">ai</span> Amin</h1></span>
-            <span href="test" target="_blank" id="theme-selector" class="theme-selector">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
-                    <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07zM8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
-                </svg>
-            </span>
-        </div>
-        <div class="popup"></div>
-        <div></div>
-        
-        <div id="about-section"></div>
-        <div id="experiences-section"><h2 id="experiences">Experiences</h2></div>
-        <div id="projects-section"><h2 id="projects">Projects</h2></div>
-        <div id="interests-section"><h2 id="interests">Interests</h2></div>
-        <div id="elsewhere-section"><h2>Elsewhere</h2></div>
-
-        <div style="margin-top: 150px; font-size: 12px;"><p>Built with pure HTML/CSS/JS, deployed with Netlify.</p></div>
-
-        <script> // toggle notable section
-            function toggle(id) {
-                var text = document.getElementById(id);
-                if (text.style.display === "none" || text.style.display === "") { text.style.display = "block"; } 
-                else { text.style.display = "none"; }
-            }
-        </script>
-        <script> // change website theme
-            const themes = ["main-theme", "dark-theme"]
-            var themeContainer = document.getElementById("theme-container");
-            var currIdx = 0;
-
-            document.getElementById("theme-selector").addEventListener("click", () => {
-                themeContainer.classList.remove(themes[currIdx]);
-                currIdx = (currIdx + 1) % themes.length;
-                themeContainer.classList.add(themes[currIdx]);
-            });
-        </script>
+    <body style="width: 1000px; margin: 0 auto; overflow-wrap: break-word;">
+        <h1>J(ai) Amin</h1>
+        <img src="logo.jpeg" height="150px"><br>
+        <a href="mailto:jai@jaiamin.com">jai[at]jaiamin[dot]com</a><br><br>
+        <h2>what i do 👨🏽‍💻</h2>
+        <ul>
+            <li>3rd year computer science and artificial intelligence student at <a href="https://www.northeastern.edu/" target="_blank">Northeastern University</a></li>
+            <li>Software engineer and researcher at the <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>, focused in natural language processing and large language models</li>
+            <li>Software developer at <a href="https://bredcrums.ai/" target="_blank">Bredcrums</a>, accelerating the research process with Bredcrums AI, an AI-leveraged workflow platform</li>
+            <li>Undergraduate teaching assistant at <a href="https://www.khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a> for CS3500: Object-oriented design</li>
+            <li>Founding <a href="https://www.linkedin.com/company/nu-ai/" target="_blank">NuAI</a>, a student-led organization aimed at pioneering meaningful research on AGI at Northeastern University</li>
+        </ul>
+        <h2>elsewhere 🚀</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/jaiamin30/" target="_blank">linkedin.com/in/jaiamin30</a> — for a prettier version of all this</li>
+            <li><a href="https://github.com/jamino30/" target="_blank">github.com/jamino30/</a> — mostly python-related work</li>
+            <li><a href="https://twitter.com/jamino30" target="_blank">twitter.com/jamino30</a> — my favorite tweets</li>
+            <li><a href="https://huggingface.co/jamino30" target="_blank">huggingface.co/jamino30</a> — a work in progress</li>
+        </ul>
     </body>
 </html>
