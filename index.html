@@ -8,7 +8,7 @@
 :root { --text: rgb(255, 255, 255, 0.8) }
 html { margin:10px 20px; background:rgb(28,28,28); color:var(--text); font-family:sans-serif }
 body { margin:0 auto; width:900px }
-img { float:right; margin:0 0 25px 25px; border-radius: 5px; }
+img { float:right; margin:0 0 25px 25px; border-radius: 5px; filter:grayscale(100) } img:hover { filter:grayscale(0) }
 h2 { margin-top:35px; margin-bottom:-5px; font-size:22px; font-weight:400 }
 li { margin-left:-15px }
 p, li, a { line-height:1.5; margin-top:0; font-size:14px; font-weight:100 }
@@ -23,7 +23,7 @@ a { text-decoration: none; color:rgb(76, 172, 252) } a:hover { text-decoration:u
 <hr>
 </header>
 <body>
-<img src="logo.jpg", height="300px">
+<img id="logo" src="media/logo.jpg", height="300px">
 
 <!-- content -->
 <p>I am currently an undergraduate computer science and artificial intelligence student at <a href="https://www.northeastern.edu/" target="_blank">Northeastern University</a> in Boston, MA. I've been into AI ever since I realized it's built into my name. My interests lie in the fields of machine learning, natural language processing, large language models, and computer vision. Here's a quick list of things I've worked on (or am working on).</p>
